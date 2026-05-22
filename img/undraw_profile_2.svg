@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#1cc88a"/>
+  <circle cx="50" cy="35" r="16" fill="#f5d5a8"/>
+  <path d="M22 88 Q22 62 50 62 Q78 62 78 88" fill="#f5d5a8"/>
+  <path d="M25 75 Q28 65 50 63 Q72 65 75 75 Q65 70 50 70 Q35 70 25 75 Z" fill="#0a4d35"/>
+  <!-- Cabello oscuro -->
+  <path d="M34 30 Q34 15 50 14 Q66 15 66 30 Q63 20 50 19 Q37 20 34 30 Z" fill="#3d2b1f"/>
+</svg>

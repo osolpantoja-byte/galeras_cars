@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff"/>
+      <stop offset="100%" stop-color="#e8f0fe"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e73df"/>
+      <stop offset="100%" stop-color="#2e59d9"/>
+    </linearGradient>
+    <linearGradient id="car2Body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1cc88a"/>
+      <stop offset="100%" stop-color="#13855c"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="500" fill="url(#bgGrad2)"/>
+  
+  <!-- Tablet/pantalla mostrando listing de auto -->
+  <rect x="160" y="60" width="280" height="380" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Pantalla interior -->
+  <rect x="175" y="85" width="250" height="310" rx="10" fill="#f8f9fc"/>
+  
+  <!-- Header del listing -->
+  <rect x="175" y="85" width="250" height="45" rx="10" fill="url(#cardGrad)"/>
+  <text x="300" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">GALERAS CARS</text>
+  
+  <!-- Imagen del auto en el listing -->
+  <!-- Auto pequeño en la tarjeta -->
+  <rect x="185" y="140" width="230" height="120" rx="8" fill="#e8f0fe"/>
+  
+  <!-- Auto estilizado dentro de la tarjeta -->
+  <path d="M210 230 L225 205 L265 198 L315 196 L345 205 L360 230 Z" fill="url(#car2Body)"/>
+  <path d="M232 205 L242 182 L320 182 L340 205 Z" fill="#0f9e6e"/>
+  <path d="M240 202 L248 185 L292 185 L292 202 Z" fill="#7dd3fc" opacity="0.85"/>
+  <path d="M298 202 L298 185 L332 185 L338 202 Z" fill="#7dd3fc" opacity="0.85"/>
+  <circle cx="238" cy="233" r="20" fill="#334155"/>
+  <circle cx="238" cy="233" r="14" fill="#64748b"/>
+  <circle cx="238" cy="233" r="6" fill="#cbd5e1"/>
+  <circle cx="332" cy="233" r="20" fill="#334155"/>
+  <circle cx="332" cy="233" r="14" fill="#64748b"/>
+  <circle cx="332" cy="233" r="6" fill="#cbd5e1"/>
+  
+  <!-- Detalles de la tarjeta de auto -->
+  <rect x="185" y="270" width="230" height="15" rx="4" fill="#e2e8f0"/>
+  <rect x="185" y="270" width="150" height="15" rx="4" fill="#4e73df"/>
+  <text x="190" y="282" font-family="Arial, sans-serif" font-size="10" fill="white">Toyota Camry 2023</text>
+  
+  <rect x="185" y="292" width="100" height="12" rx="4" fill="#f0f4ff"/>
+  <text x="190" y="302" font-family="Arial, sans-serif" font-size="9" fill="#4e73df">$25,000 USD</text>
+  
+  <rect x="295" y="292" width="120" height="12" rx="4" fill="#f0f4ff"/>
+  <text x="300" y="302" font-family="Arial, sans-serif" font-size="9" fill="#858796">15,000 km</text>
+  
+  <!-- Líneas de descripción -->
+  <rect x="185" y="312" width="230" height="8" rx="3" fill="#e2e8f0"/>
+  <rect x="185" y="326" width="190" height="8" rx="3" fill="#e2e8f0"/>
+  <rect x="185" y="340" width="210" height="8" rx="3" fill="#e2e8f0"/>
+  
+  <!-- Botón de acción -->
+  <rect x="185" y="358" width="230" height="30" rx="8" fill="url(#cardGrad)"/>
+  <text x="300" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Ver Detalles</text>
+  
+  <!-- Botones del tablet -->
+  <rect x="290" y="448" width="20" height="8" rx="4" fill="#cbd5e1"/>
+  
+  <!-- Persona usando tablet (simplificada) -->
+  <!-- Brazo derecho -->
+  <path d="M440 200 Q430 260 420 300 Q415 320 430 330" stroke="#f0c9a0" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <!-- Mano sosteniendo -->
+  <circle cx="438" cy="300" r="15" fill="#f0c9a0"/>
+  <!-- Cuerpo -->
+  <ellipse cx="460" cy="280" rx="35" ry="80" fill="#4e73df" opacity="0.8"/>
+  <!-- Cabeza -->
+  <circle cx="460" cy="175" r="40" fill="#f0c9a0"/>
+  <!-- Cabello -->
+  <path d="M425 160 Q430 130 460 125 Q490 130 495 160 Q490 140 460 135 Q430 140 425 160 Z" fill="#5a3e2b"/>
+  <!-- Ojo derecho -->
+  <circle cx="448" cy="175" r="5" fill="#2d3748"/>
+  <!-- Ojo izquierdo -->
+  <circle cx="472" cy="175" r="5" fill="#2d3748"/>
+  <!-- Sonrisa -->
+  <path d="M448 192 Q460 202 472 192" stroke="#2d3748" stroke-width="2" fill="none"/>
+  
+  <!-- Brazo izquierdo levantado -->
+  <path d="M440 220 Q400 180 390 140" stroke="#f0c9a0" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Mano izquierda con llave de auto -->
+  <circle cx="385" cy="132" r="12" fill="#f0c9a0"/>
+  <!-- Llave -->
+  <path d="M380 128 L360 108" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="357" cy="105" r="8" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+  
+  <!-- Piernas -->
+  <rect x="440" y="350" width="18" height="80" rx="9" fill="#334155"/>
+  <rect x="462" y="350" width="18" height="80" rx="9" fill="#334155"/>
+  <!-- Zapatos -->
+  <ellipse cx="449" cy="432" rx="14" ry="8" fill="#1a202c"/>
+  <ellipse cx="471" cy="432" rx="14" ry="8" fill="#1a202c"/>
+  
+  <!-- Elementos decorativos de fondo -->
+  <circle cx="80" cy="120" r="40" fill="#4e73df" opacity="0.08"/>
+  <circle cx="540" cy="380" r="55" fill="#1cc88a" opacity="0.08"/>
+  <circle cx="520" cy="100" r="30" fill="#f6c23e" opacity="0.1"/>
+</svg>

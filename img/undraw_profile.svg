@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="profileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e73df"/>
+      <stop offset="100%" stop-color="#2e59d9"/>
+    </linearGradient>
+  </defs>
+  <!-- Fondo circular -->
+  <circle cx="50" cy="50" r="48" fill="url(#profileGrad)"/>
+  <!-- Silueta de persona -->
+  <circle cx="50" cy="35" r="16" fill="white" opacity="0.9"/>
+  <path d="M18 85 Q18 60 50 60 Q82 60 82 85" fill="white" opacity="0.9"/>
+</svg>
