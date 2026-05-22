@@ -2,7 +2,7 @@
    // This a line coment
    /*
      This is block comment
-     Developer: Daniel F. Guaranguay
+     Developer: osolpantoja-byte
    */
 
 
